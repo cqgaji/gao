@@ -33,4 +33,17 @@
     <!--
     <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
     -->
+    
+    <Resource 
+       name="jdbc/zdjy" 
+       auth="Container" 
+       type="javax.sql.DataSource"
+       maxActive="0" 
+       maxIdle="30" 
+       maxWait="10000"
+       username="cqgaji" 
+       password="gaji820825" 
+       driverClassName="com.mysql.jdbc.Driver"
+       url="jdbc:mysql://data2-p86uo.q1.tenxcloud.net:41548/zdjy"
+/>
 </Context>

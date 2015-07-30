@@ -29,7 +29,7 @@
   </description>
   <resource-ref>
       <description>DB Connection</description>
-      <res-ref-name>jdbc/TestDB</res-ref-name>
+      <res-ref-name>jdbc/zdjy</res-ref-name>
       <res-type>javax.sql.DataSource</res-type>
       <res-auth>Container</res-auth>
   </resource-ref>
@@ -98,5 +98,25 @@
     <servlet-mapping>
         <servlet-name>zczh</servlet-name>
         <url-pattern>/zczh</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>phbtest</servlet-name>
+        <servlet-class>phbtest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>phbtest</servlet-name>
+        <url-pattern>/phbtest</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>kfdl</servlet-name>
+        <servlet-class>kfdl</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>kfdl</servlet-name>
+        <url-pattern>/kfdl</url-pattern>
     </servlet-mapping>
 </web-app>
