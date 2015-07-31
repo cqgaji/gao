@@ -120,13 +120,14 @@
         <url-pattern>/kfdl</url-pattern>
     </servlet-mapping>
     
-        <servlet>
-        <servlet-name>testsudu</servlet-name>
-        <servlet-class>testsudu</servlet-class>
+            <servlet>
+        <servlet-name>sudu</servlet-name>
+        <servlet-class>sudu</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>testsudu</servlet-name>
-        <url-pattern>/testsudu</url-pattern>
-    </servlet-mapping>
+        <servlet-name>sudu</servlet-name>
+        <url-pattern>/sudu</url-pattern>
+    </servlet-mapping>    
+
 </web-app>
