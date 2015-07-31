@@ -120,7 +120,7 @@
         <url-pattern>/kfdl</url-pattern>
     </servlet-mapping>
     
-            <servlet>
+        <servlet>
         <servlet-name>testsudu</servlet-name>
         <servlet-class>testsudu</servlet-class>
     </servlet>
