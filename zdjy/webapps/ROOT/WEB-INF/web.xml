@@ -120,7 +120,7 @@
         <url-pattern>/kfdl</url-pattern>
     </servlet-mapping>
     
-            <servlet>
+	<servlet>
         <servlet-name>sudu</servlet-name>
         <servlet-class>sudu</servlet-class>
     </servlet>
@@ -129,5 +129,15 @@
         <servlet-name>sudu</servlet-name>
         <url-pattern>/sudu</url-pattern>
     </servlet-mapping>    
+    
+	<servlet>
+        <servlet-name>kfcx</servlet-name>
+        <servlet-class>kfcx</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>kfcx</servlet-name>
+        <url-pattern>/kfcx</url-pattern>
+    </servlet-mapping> 
 
 </web-app>
