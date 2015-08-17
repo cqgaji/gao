@@ -41,9 +41,9 @@
        maxActive="0" 
        maxIdle="30" 
        maxWait="10000"
-       username="root" 
+       username="cqgaji" 
        password="gaji820825" 
        driverClassName="com.mysql.jdbc.Driver"
-       url="jdbc:mysql://mysql-cqgaji1.myalauda.cn:11587/zdjy"
+       url="jdbc:mysql://mysql-cqgaji1.myalauda.cn:64453/zdjy"
 />
 </Context>
