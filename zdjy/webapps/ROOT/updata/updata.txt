@@ -1,3 +1,3 @@
 ver=6.21
 file=http://www.zdjy.top/updata/卓咪自动交易程序更新包0818.zip
-md=426627
+md=426564
