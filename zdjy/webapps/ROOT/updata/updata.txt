@@ -1,5 +1,5 @@
 <zdjyautoupdate>
-ver=6.3
-file=http://www.zdjy.top/updata/卓咪自动交易程序更新包0825.zip
-md=426315
+ver=6.31;
+file=http://www.zdjy.top/updata/卓咪自动交易程序更新包0825.zip;
+md=426703;
 </zdjyautoupdate>

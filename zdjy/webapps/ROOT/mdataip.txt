@@ -1,6 +1,6 @@
 <zdjyserver>
-cqgaji-web2.daoapp.io
-web3-cqgaji.myalauda.cn
-web4-ny4fx.tenxcloud.net:43359
-web2-4xrk3.q1.tenxcloud.net:49166
+cqgaji-web2.daoapp.io;
+web3-cqgaji.myalauda.cn;
+web4-ny4fx.tenxcloud.net:43359;
+web2-4xrk3.q1.tenxcloud.net:49166;
 </zdjyserver>
