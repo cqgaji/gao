@@ -4626,7 +4626,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>zip</extension>
-        <mime-type>application/octet-stream</mime-type>
+        <mime-type>application/x-zip</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>zir</extension>
