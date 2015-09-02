@@ -3925,7 +3925,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>txt</extension>
-        <mime-type>text/plain</mime-type>
+        <mime-type>application/txt</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>u32</extension>
@@ -4626,7 +4626,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>zip</extension>
-        <mime-type>application/zip</mime-type>
+        <mime-type>application/octet-stream</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>zir</extension>
