@@ -1,1 +1,1 @@
-<zdjyautoupdate>ver=6.4;file=http://www.zdjy.top/updata/卓咪自动交易程序更新包0901.zip;md=426275;</zdjyautoupdate>
+<zdjyautoupdate>ver=6.4;file=http://www.zdjy.top/updata/zdjyup_0901.zip;md=426275;</zdjyautoupdate>
