@@ -139,5 +139,15 @@
         <servlet-name>kfcx</servlet-name>
         <url-pattern>/kfcx</url-pattern>
     </servlet-mapping> 
+   
+	<servlet>
+        <servlet-name>fsgl</servlet-name>
+        <servlet-class>fsgl</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fsgl</servlet-name>
+        <url-pattern>/fsgl</url-pattern>
+    </servlet-mapping>
 
 </web-app>
