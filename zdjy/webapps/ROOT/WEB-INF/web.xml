@@ -149,5 +149,15 @@
         <servlet-name>fsgl</servlet-name>
         <url-pattern>/fsgl</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>cxsj2</servlet-name>
+        <servlet-class>cxsj2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cxsj2</servlet-name>
+        <url-pattern>/cxsj2</url-pattern>
+    </servlet-mapping> 
 
 </web-app>
