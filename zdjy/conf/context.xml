@@ -44,6 +44,6 @@
        username="cqgaji" 
        password="gaji820825" 
        driverClassName="com.mysql.jdbc.Driver"
-       url="jdbc:mysql://sql-cqgaji.tenxcloud.net:54353"
+       url="jdbc:mysql://sql-cqgaji.tenxcloud.net:54353/zdjy"
 />
 </Context>
