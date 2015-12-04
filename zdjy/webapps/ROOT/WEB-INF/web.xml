@@ -159,5 +159,15 @@
         <servlet-name>cxsj2</servlet-name>
         <url-pattern>/cxsj2</url-pattern>
     </servlet-mapping> 
+    
+    <servlet>
+        <servlet-name>mbglcx</servlet-name>
+        <servlet-class>mbglcx</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mbglcx</servlet-name>
+        <url-pattern>/mbglcx</url-pattern>
+    </servlet-mapping> 
 
 </web-app>
