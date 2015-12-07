@@ -23,9 +23,9 @@
   version="3.0"
   metadata-complete="true">
 
-  <display-name>Welcome to Tomcat</display-name>
+  <display-name>Welcome</display-name>
   <description>
-     Welcome to Tomcat
+     Welcome
   </description>
   <resource-ref>
       <description>DB Connection</description>
@@ -169,5 +169,15 @@
         <servlet-name>mbglcx</servlet-name>
         <url-pattern>/mbglcx</url-pattern>
     </servlet-mapping> 
+    
+    	<servlet>
+        <servlet-name>sudu2</servlet-name>
+        <servlet-class>sudu2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sudu2</servlet-name>
+        <url-pattern>/sudu2</url-pattern>
+    </servlet-mapping>
 
 </web-app>
