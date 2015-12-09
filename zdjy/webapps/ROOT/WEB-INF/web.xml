@@ -180,4 +180,14 @@
         <url-pattern>/sudu2</url-pattern>
     </servlet-mapping>
 
+    	<servlet>
+        <servlet-name>ccbd</servlet-name>
+        <servlet-class>ccbd</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ccbd</servlet-name>
+        <url-pattern>/ccbd</url-pattern>
+    </servlet-mapping>
+
 </web-app>
