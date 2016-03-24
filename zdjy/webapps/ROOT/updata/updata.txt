@@ -1,1 +1,1 @@
-<zdjyautoupdate>ver=8.82;file=http://www.zdjy.top/updata/updata.zip;md=703740;</zdjyautoupdate>
+<zdjyautoupdate>ver=8.83;file=http://www.zdjy.top/updata/updata.zip;md=703868;</zdjyautoupdate>
