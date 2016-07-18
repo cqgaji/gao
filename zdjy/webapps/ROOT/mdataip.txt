@@ -1,1 +1,1 @@
-﻿<zdjyserver>www.zdjy.top;cqgaji1.daoapp.io;cqgaji.daoapp.io;sh-cqgaji.myalauda.cn</zdjyserver>
+﻿<zdjyserver>www.zdjy.top;cqgaji1.daoapp.io;cqgaji.daoapp.io</zdjyserver>
