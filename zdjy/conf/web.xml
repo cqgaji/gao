@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
@@ -109,6 +109,26 @@
         <init-param>
             <param-name>listings</param-name>
             <param-value>false</param-value>
+        </init-param>
+        <init-param>
+            <param-name>parameterEncoding</param-name>
+            <param-value>gbk</param-value>
+        </init-param>
+  <init-param>
+            <param-name>inputEncoding</param-name>
+            <param-value>gbk</param-value>
+        </init-param>
+  <init-param>
+            <param-name>outputEncoding</param-name>
+            <param-value>gbk</param-value>
+        </init-param>
+  <init-param>
+            <param-name>fileEncoding</param-name>
+            <param-value>gbk</param-value>
+        </init-param>
+        <init-param>
+            <param-name>javaEncoding</param-name>
+            <param-value>gbk</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
