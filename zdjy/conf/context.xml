@@ -42,8 +42,8 @@
        maxIdle="30" 
        maxWait="10000"
        username="cqgaji" 
-       password="gaji820825" 
+       password="gaji710920" 
        driverClassName="com.mysql.jdbc.Driver"
-       url="jdbc:mysql://sjk-cqgaji.tenxapp.com:41889/zdjy"
+       url="jdbc:mysql://mysql.t0.daoappinternal.com:61024/zdjy"
 />
 </Context>
