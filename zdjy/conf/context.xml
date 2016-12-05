@@ -41,7 +41,7 @@
        maxActive="0" 
        maxIdle="30" 
        maxWait="10000"
-       username="cqgaji" 
+       username="root" 
        password="gaji710920" 
        driverClassName="com.mysql.jdbc.Driver"
        url="jdbc:mysql://mysql.t0.daoappinternal.com:61024/zdjy?characterEncoding=utf8"
