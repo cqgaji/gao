@@ -189,5 +189,15 @@
         <servlet-name>ccbd</servlet-name>
         <url-pattern>/ccbd</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>monup</servlet-name>
+        <servlet-class>monup</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>monup</servlet-name>
+        <url-pattern>/monup</url-pattern>
+    </servlet-mapping>
 
 </web-app>
