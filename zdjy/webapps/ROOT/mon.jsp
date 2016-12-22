@@ -196,7 +196,7 @@ else
 %>
 <script type="text/javascript">
 	setInterval(function () {
-		window.location.href="http://127.0.0.1:8080/mon.jsp?id=<%=id%>&pass=<%=pass%>";
+		window.location.href="http://www.zdjy.top/mon.jsp?id=<%=id%>&pass=<%=pass%>";
 		window.location.reload;
 	}, 120000);	// 单位: 毫秒, 1000 = 1 秒
 </script>
