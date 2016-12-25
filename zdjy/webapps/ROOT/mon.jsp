@@ -80,7 +80,7 @@ else
 		  DataSource ds = (DataSource)envContext.lookup("jdbc/zdjy");//获取jndi数据源
 		  conn = ds.getConnection(); //申请一个连接
 		  stmt =conn.createStatement(); //创建statement
-		sql = "SELECT id_nick FROM account Where id_account='"+id+"' and id_password='"+pass+"'"; 
+		sql = "SELECT id_nick,date_add(now(), interval 8 hour)  as today FROM account Where id_account='"+id+"' and id_password='"+pass+"'"; 
        		ResultSet rs1 = stmt.executeQuery(sql);
 		 if (rs1.isAfterLast()==rs1.isBeforeFirst() ){
        		 out.print("账户验证失败"); 
@@ -88,11 +88,9 @@ else
 		else{
 			rs1.next();
 			String name=rs1.getString("id_nick");
+                        String today=rs1.getString("today");
 			rs1.close();
-			Date date = new Date();
-    			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-    			String today = df.format(date);
-			out.print("欢迎您："+name+"    ,在这里你可以监看卓咪程序的运行情况，页面每2分钟自动更新！   更新时间:"+today); 
+			out.print("欢迎您："+name+"    ,在这里你可以监看卓咪程序的运行情况，页面每5分钟自动更新！   更新时间:"+today); 
 	
 			sql = "SELECT traninfo,sysset,gulist,gdlb,timestampdiff(minute,timeup,now()) as diftt FROM moniter Where account='"+id+"'"; 
        			ResultSet rs = stmt.executeQuery(sql);
@@ -110,7 +108,7 @@ else
 				String gdlb=rs.getString("gdlb");
 				int diftt=rs.getInt("diftt");
 				rs.close();
-				if ( diftt>4){ isok="<font color=red>异常</font>";}
+				if ( diftt>10){ isok="<font color=red>异常</font>";}
 				//下面输出页面
 %>
 <table  align=center border=1 bordercolor="#000000" style="border-collapse: collapse" cellpadding="2" cellspacing="2">
