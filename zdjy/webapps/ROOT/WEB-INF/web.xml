@@ -199,5 +199,15 @@
         <servlet-name>monup</servlet-name>
         <url-pattern>/monup</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>fsyj</servlet-name>
+        <servlet-class>fsyj</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fsyj</servlet-name>
+        <url-pattern>/fsyj</url-pattern>
+    </servlet-mapping>
 
 </web-app>
