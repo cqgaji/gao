@@ -44,6 +44,6 @@
        username="cqgaji" 
        password="gaji710920" 
        driverClassName="com.mysql.jdbc.Driver"
-       url="jdbc:mysql://139.199.202.229:3306/zdjy?characterEncoding=utf8"
+       url="jdbc:mysql://db2.daocloudinternal.io:60218/zdjy?characterEncoding=utf8"
 />
 </Context>
